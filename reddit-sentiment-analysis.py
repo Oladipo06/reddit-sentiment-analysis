@@ -138,7 +138,7 @@ def print_helper(tickers, picks, c_analyzed, posts, subs, titles, time, start_ti
     top_picks = list(symbols.keys())[0:picks]
     time = (time.time() - start_time)
     
-    # print top picks
+    # print top picks s
     print("It took {t:.2f} seconds to analyze {c} comments in {p} posts in {s} subreddits.\n".format(t=time, c=c_analyzed, p=posts, s=len(subs)))
     print("Posts analyzed saved in titles")
     #for i in titles: print(i)  # prints the title of the posts analyzed
